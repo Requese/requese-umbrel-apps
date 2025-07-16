@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: daloradius
+category: developer
+name: Daloradius_requese
+version: "1.3"
+tagline: daloRADIUS is an advanced RADIUS web management application for managing hotspots and general-purpose ISP deployments.
+description: >-
+  aloRADIUS is written using the PHP programming language and uses a database abstraction layer (DAL) for database access. Although DAL allows the use of different database management 
+  systems (DBMSs) (e.g., MariaDB, MySQL, PostgreSQL, SQLite, MsSQL, etc.), it is important to note that daloRADIUS has been fully tested only on the MariaDB DBMS. Therefore, the use of other DBMSs is not recommended.
+  daloRADIUS is an advanced RADIUS web management application for managing hotspots and general-purpose ISP deployments. It features user management, graphical reporting, accounting,
+  a billing engine, and integrates with OpenStreetMap for geolocation. The system is based on FreeRADIUS with which it shares access to the backend database.
+website: https://portainer.io
+dependencies: []
+repo: https://github.com/lirantal/daloradius
+support: https://github.com/lirantal/daloradius/issues
+port: 5874
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: "-"
+defaultPassword: "-"
+releaseNotes: >-
+  Full release notes are found at https://github.com/lirantal/daloradius/releases.
+developer: Daloradius
+submitter: Requese
+submission: -
