@@ -2,6 +2,7 @@ manifestVersion: 1
 id: requese-teamspeak-3
 name: TeamSpeak
 tagline: Easy, Secure, and High-Quality Communication for Gaming, Learning, Business, and more
+icon: https://www.freeiconspng.com/uploads/ts3-icon-png-transparent-9.png
 category: social
 version: "3.13.7"
 port: 50371
