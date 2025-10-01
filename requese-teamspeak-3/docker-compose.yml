@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   TeamSpeak3_Server:
-    image: "ertagh/teamspeak3-server:latest-box"
+    image: "ertagh/teamspeak3-server:latest-box-predownloaded"
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
@@ -14,4 +14,4 @@ services:
       TIME_ZONE: Europe/Moscow
       TS_UPDATE: 1
     volumes:
-      - ${APP_DATA_DIR}/data:/var/ts3server
+      - ${APP_DATA_DIR}/data:/var/ts3server/save/
